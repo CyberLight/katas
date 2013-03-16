@@ -22,11 +22,9 @@ TDD Katas
 
 * ```AutoFixture```
 * ```xUnit```
-* ```xUnit.Extentions```
+* ```xUnit Extentions```
 
 * ```VS2012 Express for Windows Desktop```
 * ```NuGet package manager```
 
 * * *
-
-
