@@ -1,0 +1,5 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<PropertyGroup>
+		<XUnitRunnerAssemblyPath>[Path to xunit's folder with slash at end]</XUnitRunnerAssemblyPath>
+	</PropertyGroup>
+</Project>
