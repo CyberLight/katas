@@ -1,0 +1,12 @@
+<Project
+    DefaultTargets="InstallDeps"
+    xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+	<PropertyGroup>
+		<NuGetPath>..\..\tools\nuget\NuGet.exe</NuGetPath>
+	</PropertyGroup>
+
+	<Target Name="InstallDeps">
+		 <Exec Command="$(NuGetPath) install $(MSBuildThisFileDirectory)..\FizzBuzz.UnitTests\packages.config -o $(MSBuildThisFileDirectory)..\packages" />
+	</Target>
+</Project>
